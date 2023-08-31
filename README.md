@@ -18,8 +18,7 @@ quickclim_fembvvarx.ipynb
         All figures produced in the notebook are output to PDF here
 
 ./inputs/
-        Contains the CO2e concentration files (*.dat) and pre-processed CMIP5 inputs (ds_model.nc) required to reproduce the results in section 3 of the notebook.
-        One can instead obtain the original CMIP5 data directly from https://pcmdi.llnl.gov/mips/cmip5/data-portal.html.
+        Contains the CO2e concentration files (*.dat) used for the exogenous factors.
 
 ./results/
         Pre-calculated outputs using QuickClim required to reproduce the figures in section 4 and section 5 of the notebook.
@@ -28,6 +27,10 @@ quickclim_fembvvarx.ipynb
         Third party software required to run the FEM-BV-VARX code. Users of the software in this directory should cite the following:
                 paper - Quinn, C., D. Harries, and T. J. O’Kane, 2021: Dynamical Analysis of a Reduced Model for the North Atlantic Oscillation. J. Atmos. Sci., 78, 1647–1671, https://doi.org/10.1175/JAS-D-20-0282.1.
                 code - https://zenodo.org/record/4035644
+
+## Additional Required Data
+	To reproduce the results in section 3 of the notebook, the pre-processed CMIP5 input file, ds_model.nc, needs to be downloaded from the link and placed in the directory ./inputs/
+	The original CMIP5 data was obtained from https://pcmdi.llnl.gov/mips/cmip5/data-portal.html.
 
 ## License
 
