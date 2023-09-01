@@ -30,7 +30,9 @@ quickclim_fembvvarx.ipynb
 
 ## Additional Required Data
 	To reproduce the results in section 3 of the notebook, the pre-processed CMIP5 input file, ds_model.nc, needs to be downloaded and placed in the directory ./inputs/
-	The original CMIP5 data was obtained from https://pcmdi.llnl.gov/mips/cmip5/data-portal.html.
+	This data can be obtained at https://doi.org/10.6084/m9.figshare.24069741.v2
+		Kitsios, Vassili (2023). QuickClim demonstration input data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24069741.v2
+	The original CMIP5 data was obtained from https://pcmdi.llnl.gov/mips/cmip5/data-portal.html
 
 ## License
 
