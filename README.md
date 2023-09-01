@@ -12,27 +12,37 @@ The international Coupled Model Inter-comparison Projects, simulate a small sele
 The directories in this repo are as follows:
 
 quickclim_fembvvarx.ipynb
-        Jupyter notebook containing all of the QuickClim and plotting code to reproduce the results in the manuscript.
+
+* Jupyter notebook containing all of the QuickClim and plotting code to reproduce the results in the manuscript.
 
 ./images/
-        All figures produced in the notebook are output to PDF here
+
+* All figures produced in the notebook are output to PDF here
 
 ./inputs/
-        Contains the CO2e concentration files (*.dat) used for the exogenous factors.
+
+* Contains the CO2e concentration files (*.dat) used for the exogenous factors.
 
 ./results/
-        Pre-calculated outputs using QuickClim required to reproduce the figures in section 4 and section 5 of the notebook.
+
+* Pre-calculated outputs using QuickClim required to reproduce the figures in section 4 and section 5 of the notebook.
 
 ./src/
-        Third party software required to run the FEM-BV-VARX code. Users of the software in this directory should cite the following:
-                paper - Quinn, C., D. Harries, and T. J. O’Kane, 2021: Dynamical Analysis of a Reduced Model for the North Atlantic Oscillation. J. Atmos. Sci., 78, 1647–1671, https://doi.org/10.1175/JAS-D-20-0282.1.
-                code - https://zenodo.org/record/4035644
+
+* Third party software required to run the FEM-BV-VARX code. Users of the software in this directory should cite the following:
+
+	* paper - Quinn, C., D. Harries, and T. J. O’Kane, 2021: Dynamical Analysis of a Reduced Model for the North Atlantic Oscillation. J. Atmos. Sci., 78, 1647–1671, https://doi.org/10.1175/JAS-D-20-0282.1.
+
+	* code - https://zenodo.org/record/4035644
 
 ## Additional Required Data
 
 To reproduce the results in section 3 of the notebook, the pre-processed CMIP5 input file, ds_model.nc, needs to be downloaded and placed in the directory ./inputs/
+
 This data can be obtained at https://doi.org/10.6084/m9.figshare.24069741.v2
-	Kitsios, Vassili (2023). QuickClim demonstration input data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24069741.v2
+
+Kitsios, Vassili (2023). QuickClim demonstration input data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24069741.v2
+
 The original CMIP5 data was obtained from https://pcmdi.llnl.gov/mips/cmip5/data-portal.html
 
 ## License
